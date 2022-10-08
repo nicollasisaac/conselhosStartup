@@ -57,3 +57,10 @@ main{
     cursor: pointer;
     background: var(--blue);
 }
+
+@media screen and (max-width: 1200px) {
+    .text h1{
+    color: var(--blue);
+    font-size: 1rem;
+    }
+} 

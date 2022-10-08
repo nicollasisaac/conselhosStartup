@@ -82,4 +82,8 @@ img{
         margin: auto;
         display: flex;
     }
+    .conteudo h1{
+    color: var(--blue);
+    font-size: 1rem;
+    }
 } 
