@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --white: #FFFFFF;
+    --blue: #545af5;
+    --blueDark: #252e2b88;
+}
+*{
+    padding: 0;
+    text-decoration: none;
+    user-select: none;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    width: 100%;
+    background: var(--blue);
+    height: 100vh;
+    display: flex;
+}
+
+.conteudo{
+    height: 80vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background: var(--white);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px;
+    -webkit-box-shadow: 5px 5px 5px  var(--blueDark);
+    -moz-box-shadow: 10px 10px 10px var(--blueDark);
+}
+
+img{
+    width: 50%;
+}
+
+.conteudo h1{
+    color: var(--blue);
+    font-size: 4rem;
+}
+
+.text{
+    width: 50%;
+    padding: 1rem;
+    margin: auto;
+}
+::placeholder{
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.text input{
+    border: 0;
+    margin-left: 4px;
+    outline: none;
+    width: 60%;
+    padding: 1rem;
+    color: var(--white);
+    font-size: 1.5rem;
+    background: var(--blue);
+}
+
+#btn{
+    cursor: pointer;
+}
+
+.btn{
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    img{
+        display: none;
+    }
+    .text{
+        width: 100%;
+    }
+    .conteudo{
+        height: 60vh;
+        width: 70%;
+        margin: auto;
+        display: flex;
+    }
+} 

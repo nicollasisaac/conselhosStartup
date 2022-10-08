@@ -128,3 +128,30 @@ let problems = [
         problemText: 'divulgar projetos de desenvolvedores para possíveis usuários e investidores'
     },
 ]
+
+let typeOfCreation = [
+    {
+        id: '0',
+        software: 'software apple watch'
+    },
+    {
+        id: '1',
+        software: 'software'
+    },
+    {
+        id: '2',
+        software: 'site'
+    },
+    {
+        id: '3',
+        software: 'aplicativo Android'
+    },
+    {
+        id: '4',
+        software: 'aplicativo IOS'
+    },
+    {
+        id: '5',
+        software: 'software desktop'
+    },
+]
