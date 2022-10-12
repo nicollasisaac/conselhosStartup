@@ -23,13 +23,17 @@ for(let elemento of typeOfCreation){
 var numberRandomSystem = Math.floor(Math.random() * 6);
 var textTypeOfSystem = typeOfSystemArray[numberRandomSystem];
 
-//exibir dados das arrays
-var textSuggestion = document.createTextNode(localStorage.getItem('name') + ", a ideia é criar um " + textTypeOfSystem + " para " + textIdea);
+//exibir nome e dados das arrays
+var nameCor = document.querySelector("span");
+var nameText = document.createTextNode(localStorage.getItem('name'));
+
+nameCor.appendChild(nameText);
+
+var textSuggestion = document.createTextNode(", a ideia é criar um " + textTypeOfSystem + " para " + textIdea);
 ideiaSuggestion.appendChild(textSuggestion);
 
 //btn recarregar página
 var btn = document.querySelector("#refresh");
-btn.addEventListener("click", function() {
-    
+btn.addEventListener("click", function() {    
     location.reload();
 });

@@ -31,22 +31,15 @@ main{
     -moz-box-shadow: 10px 10px 10px var(--blueDark);
 }
 
-.conteudo h1{
-    color: var(--blue);
-    font-size: 3rem;
-}
-
 .text{
     padding: 1rem;
     width: 90%;
     margin: auto;
     text-align: center;
-    display: table-cell;
-    vertical-align: middle;
 }
 
 .text input{
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     border: 0;
     margin-left: 4px;
     outline: none;
@@ -58,9 +51,29 @@ main{
     background: var(--blue);
 }
 
-@media screen and (max-width: 1200px) {
-    .text h1{
+#idea-suggestion{
+    text-align: center;
+    margin: auto;
+    font-size: 3.5rem;
+    width: 100%;
     color: var(--blue);
-    font-size: 1rem;
+}
+
+.linkAccount{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .conteudo{
+        padding: 3rem;
+        height: auto;
+        width: 65%;
+        margin: auto;
+        display: flex;
+    }
+    #idea-suggestion{
+        margin: auto;
+        text-align: center;
+        font-size: 1.5rem;
     }
 } 
