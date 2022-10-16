@@ -9,7 +9,7 @@ let problems = [
     },
     {   
         id: '3',
-        problemText: 'estimular a participação dos cidadãos na resolução dos problemas das cidades'
+        problemText: 'estimular a participação da população na resolução dos problemas das cidades'
     },
     {   
         id: '4',
@@ -17,7 +17,7 @@ let problems = [
     },
     {   
         id: '5',
-        problemText: 'organizar de maneira mais eficiente o transporte de cargas e pessoas'
+        problemText: 'organizar de maneira mais eficiente o transporte de cargas'
     },
     {   
         id: '6',
@@ -49,7 +49,7 @@ let problems = [
     },
     {   
         id: '12',
-        problemText: 'criar ambientes inovadores para estimular a criatividade em uma cidade'
+        problemText: 'estimular a criatividade em uma cidade'
     },
     {   
         id: '13',
@@ -126,6 +126,30 @@ let problems = [
     {   
         id: '31',
         problemText: 'divulgar projetos de desenvolvedores para possíveis usuários e investidores'
+    },
+    {   
+        id: '32',
+        problemText: 'promover aluguel de itens como livros, eletrodomésticos, móveis...'
+    },
+    {   
+        id: '33',
+        problemText: 'acompanhar e monitorizar o desenvolvimento de uma gravidez'
+    },
+    {   
+        id: '34',
+        problemText: 'conectar os serviços de emergência'
+    },
+    {   
+        id: '35',
+        problemText: 'verificar a frescura e a qualidade das frutas e legumes'
+    },
+    {   
+        id: '36',
+        problemText: 'deixar pessoas ansiosas mais calmas'
+    },
+    {   
+        id: '37',
+        problemText: 'conectar os usuários a lavadoras de carros móveis'
     },
 ]
 
