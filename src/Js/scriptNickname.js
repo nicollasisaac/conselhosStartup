@@ -8,5 +8,11 @@ function storeNick(){
     window.location.replace("/src/index.html");
 }
 
+document.addEventListener('keypress', function(e){
+    if(e.which == 13){
+       storeNick();
+    }
+ }, false);
+
 //nickname
 
