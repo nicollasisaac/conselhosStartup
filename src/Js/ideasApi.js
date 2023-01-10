@@ -1,4 +1,5 @@
 let problems = [
+    
     {   
         id: '1',
         problemText: 'ajudar os cegos a aproveitar uma biblioteca'
@@ -150,6 +151,74 @@ let problems = [
     {   
         id: '37',
         problemText: 'conectar os usuários a lavadoras de carros móveis'
+    },
+    {
+        id: '37',
+        problemText: 'desenvolver novas técnicas para agricultura urbana'
+    },
+    {
+        id: '38',
+        problemText: 'estimular o uso de veículos elétricos'
+    },
+    {
+        id: '39',
+        problemText: 'desenvolver novas tecnologias para a purificação da água'
+    },
+    {
+        id: '40',
+        problemText: 'criar uma plataforma comunitária para enfrentar problemas locais'
+    },
+    {
+        id: '41',
+        problemText: 'estimular as pessoas a reduzir o consumo de carne'
+    },
+    {
+        id: '42',
+        problemText: 'criar novas oportunidades para trabalhar remotamente'
+    },
+    {
+        id: '43',
+        problemText: 'desenvolver métodos para combater a poluição do ar'
+    },
+    {
+        id: '44',
+        problemText: 'promover o uso de espaços públicos'
+    },
+    {
+        id: '45',
+        problemText: 'criar uma plataforma para corresponder voluntários com organizações locais'
+    },
+    {
+        id: '46',
+        problemText: 'estimular as pessoas a reduzir o uso de plásticos descartáveis'
+    },
+    {
+        id: '47',
+        problemText: 'criar novos sistemas para gerenciamento de resíduos'
+    },
+    {
+        id: '48',
+        problemText: 'estimular o uso de transporte público'
+    },
+    {
+        id: '49',
+        problemText: 'melhorar a acessibilidade de espaços públicos'
+    },
+    {
+        id: '50',
+        problemText: 'criar novas políticas de habitação acessível'
+    },
+    {
+        id: '51',
+        problemText: 'promover a diversidade e inclusão nas empresas'
+    },
+    {
+        id: '52',
+        problemText: 'criar programas para estimular o empreendedorismo em comunidades carentes'
+    },
+    {
+        id: '53',
+        problemText: 'desenvolver novas tecnologias para a purificação da água'
     },
 ]
 

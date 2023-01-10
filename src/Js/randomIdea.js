@@ -1,6 +1,5 @@
 var ideiaSuggestion = document.querySelector("#idea-suggestion");
 
-
 //pegar ideia do array api
 
 let textIdeaArray = [];
@@ -36,8 +35,10 @@ nameCor.appendChild(nameText);
 var textSuggestion = document.createTextNode(", a ideia é criar um " + textTypeOfSystem + " para " + textIdea);
 ideiaSuggestion.appendChild(textSuggestion);
 
+
 //btn recarregar página
 var btn = document.querySelector("#refresh");
 btn.addEventListener("click", function() {    
     location.reload();
 });
+
